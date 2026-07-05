@@ -7,18 +7,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class MainPage {
+public class ContactsPage {
     private WebDriver driver;
     private WebDriverWait wait;
 
-    public MainPage(WebDriver driver) {
+    public ContactsPage(WebDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-    }
-
-    public void open() {
-        driver.get("https://solidinvest.ru/");
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.tagName("body")));
     }
 
     public boolean isPageLoaded() {
@@ -30,12 +25,19 @@ public class MainPage {
         }
     }
 
-    public String getPageTitle() {
-        return driver.getTitle();
-    }
-
-    public boolean isTextPresent(String text) {
-        return driver.getPageSource().toLowerCase().contains(text.toLowerCase());
+    public boolean hasContactInformation() {
+        try {
+            String pageSource = driver.getPageSource().toLowerCase();
+            return pageSource.contains("адрес") ||
+                    pageSource.contains("телефон") ||
+                    pageSource.contains("email") ||
+                    pageSource.contains("address") ||
+                    pageSource.contains("phone") ||
+                    pageSource.contains("e-mail") ||
+                    pageSource.contains("контакт");
+        } catch (Exception e) {
+            return false;
+        }
     }
 
     public String getCurrentUrl() {

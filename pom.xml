@@ -16,14 +16,12 @@
     </properties>
 
     <dependencies>
-        <!-- Selenium -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>4.16.1</version>
         </dependency>
 
-        <!-- WebDriverManager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
@@ -31,7 +29,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- TestNG -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
@@ -39,7 +36,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Allure TestNG Adapter -->
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
@@ -74,7 +70,6 @@
                 </dependencies>
             </plugin>
 
-            <!-- Allure Maven Plugin с автоматической генерацией отчёта -->
             <plugin>
                 <groupId>io.qameta.allure</groupId>
                 <artifactId>allure-maven</artifactId>
@@ -82,7 +77,7 @@
                 <executions>
                     <execution>
                         <id>generate-report</id>
-                        <phase>test</phase>   <!-- отчёт генерируется сразу после тестов -->
+                        <phase>test</phase>
                         <goals>
                             <goal>report</goal>
                         </goals>
