@@ -1,4 +1,6 @@
+com\solidinvest\pages\ContactUsPage.class
+com\solidinvest\tests\ContactUsTest.class
+com\solidinvest\tests\MainPageTest.class
 com\solidinvest\pages\ContactsPage.class
 com\solidinvest\tests\ContactsTest.class
 com\solidinvest\pages\MainPage.class
-com\solidinvest\tests\MainPageTest.class

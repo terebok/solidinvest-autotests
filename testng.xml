@@ -4,6 +4,7 @@
         <classes>
             <class name="com.solidinvest.tests.MainPageTest"/>
             <class name="com.solidinvest.tests.ContactsTest"/>
+            <class name="com.solidinvest.tests.ContactUsTest"/>
         </classes>
     </test>
 </suite>

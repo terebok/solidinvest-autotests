@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="21.474" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="38.712" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="webdriver.chrome.driver" value="C:\Users\andrey\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
-    <property name="sun.java.command" value="C:\Users\andrey\AppData\Local\Temp\surefire18330975579169647182\surefirebooter-20260706123821873_3.jar C:\Users\andrey\AppData\Local\Temp\surefire18330975579169647182 2026-07-06T12-38-21_588-jvmRun1 surefire-20260706123821873_1tmp surefire_0-20260706123821873_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\andrey\AppData\Local\Temp\surefire8141796087833829679\surefirebooter-20260707002026384_3.jar C:\Users\andrey\AppData\Local\Temp\surefire8141796087833829679 2026-07-07T00-20-26_249-jvmRun1 surefire-20260707002026384_1tmp surefire_0-20260707002026384_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\AT_Project\DeepSeek\Auto_Tests\solidinvest-autotests\target\test-classes;C:\AT_Project\DeepSeek\Auto_Tests\solidinvest-autotests\target\classes;C:\Users\andrey\.m2\repository\org\seleniumhq\selenium\selenium-java\4.16.1\selenium-java-4.16.1.jar;C:\Users\andrey\.m2\repository\org\seleniumhq\selenium\selenium-api\4.16.1\selenium-api-4.16.1.jar;C:\Users\andrey\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.16.1\selenium-chrome-driver-4.16.1.jar;C:\Users\andrey\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\andrey\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.16.1\selenium-chromium-driver-4.16.1.jar;C:\Users\andrey\.m2\repository\org\seleniumhq\selenium\selenium-json\4.16.1\selenium-json-4.16.1.jar;C:\Users\andrey\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.16.1\selenium-manager-4.16.1.jar;C:\Users\andrey\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.16.1\selenium-devtools-v118-4.16.1.jar;C:\Users\andrey\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.16.1\selenium-devtools-v119-4.16.1.jar;C:\Users\andrey\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.16.1\selenium-devtools-v120-4.16.1.jar;C:\Users\andrey\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.16.1\selenium-devtools-v85-4.16.1.jar;C:\Users\andrey\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.1\selenium-edge-driver-4.16.1.jar;C:\Users\andrey\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.1\selenium-firefox-driver-4.16.1.jar;C:\Users\andrey\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.1\selenium-http-4.16.1.jar;C:\Users\andrey\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\andrey\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.16.1\selenium-ie-driver-4.16.1.jar;C:\Users\andrey\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.16.1\selenium-remote-driver-4.16.1.jar;C:\Users\andrey\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\andrey\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\andrey\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\andrey\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\andrey\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\andrey\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\andrey\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\andrey\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\andrey\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\andrey\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\andrey\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\andrey\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\andrey\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\andrey\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\andrey\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\andrey\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\andrey\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\andrey\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\andrey\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\andrey\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\andrey\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\andrey\.m2\repository\org\seleniumhq\selenium\selenium-os\4.16.1\selenium-os-4.16.1.jar;C:\Users\andrey\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\andrey\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.16.1\selenium-safari-driver-4.16.1.jar;C:\Users\andrey\.m2\repository\org\seleniumhq\selenium\selenium-support\4.16.1\selenium-support-4.16.1.jar;C:\Users\andrey\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\andrey\.m2\repository\org\slf4j\slf4j-api\2.0.10\slf4j-api-2.0.10.jar;C:\Users\andrey\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\andrey\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\andrey\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\andrey\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\andrey\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\andrey\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar;C:\Users\andrey\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\andrey\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\andrey\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\andrey\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\andrey\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\andrey\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\andrey\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\andrey\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\andrey\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\andrey\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\andrey\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\andrey\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\andrey\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\andrey\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\andrey\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\andrey\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\andrey\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\andrey\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\andrey\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\andrey\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\andrey\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\andrey\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;"/>
     <property name="allure.results.directory" value="C:\AT_Project\DeepSeek\Auto_Tests\solidinvest-autotests\target/allure-results"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\andrey\AppData\Local\Temp\surefire18330975579169647182\surefirebooter-20260706123821873_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\andrey\AppData\Local\Temp\surefire8141796087833829679\surefirebooter-20260707002026384_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19.0.2+7-44"/>
@@ -46,7 +46,6 @@
     <property name="localRepository" value="C:\Users\andrey\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\andrey\AppData\Local\Temp\"/>
-    <property name="idea.version" value="2022.3.2"/>
     <property name="java.version" value="19.0.2"/>
     <property name="user.dir" value="C:\AT_Project\DeepSeek\Auto_Tests\solidinvest-autotests"/>
     <property name="os.arch" value="amd64"/>
@@ -61,22 +60,57 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="testMainPageLoads" classname="com.solidinvest.tests.MainPageTest" time="2.642">
+  <testcase name="testMainPageLoads" classname="com.solidinvest.tests.MainPageTest" time="2.339">
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-июл. 06, 2026 12:38:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+июл. 07, 2026 12:20:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 149
-июл. 06, 2026 12:38:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+июл. 07, 2026 12:20:30 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testContactsLinkNavigation" classname="com.solidinvest.tests.ContactsTest" time="4.799">
+  <testcase name="testContactsLinkNavigation" classname="com.solidinvest.tests.ContactsTest" time="7.358">
     <system-out><![CDATA[Клик по ссылке 'Контакты' выполнен через JavaScript
 ]]></system-out>
-    <system-err><![CDATA[июл. 06, 2026 12:38:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[июл. 07, 2026 12:20:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 149
-июл. 06, 2026 12:38:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+июл. 07, 2026 12:20:34 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testContactUsForm" classname="com.solidinvest.tests.ContactUsTest" time="22.486">
+    <system-out><![CDATA[✅ Клик по 'Согласен' выполнен
+✅ Скролл до конца главной страницы выполнен
+✅ Клик по 'Контакты' выполнен
+✅ Кнопка 'Связаться с нами' найдена
+✅ Клик по 'Связаться с нами' выполнен
+✅ Форма 'Получить консультацию' загружена
+✅ Поле Email заполнено: test@test.ru
+ℹ️ Поле 'Город' не найдено
+Найдено полей для заполнения: 5
+✅ Заполнено поле Имя: Тестовый Пользователь
+✅ Заполнено поле: Фамилия
+✅ Заполнено поле Телефон: +7 (999) 123-45-67
+⚠️ Не удалось заполнить поле: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=149.0.7827.201)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf3dbab62df6313b883169fcb39e90c5, clearElement {id=f.CA78098C3ABB735A069FF71E6818C258.d.D7024EBFCD75ADB9436F8A4383168B91.e.27}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.201, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\andrey\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57469}, goog:processID: 3184, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57469/devtoo..., se:cdpVersion: 149.0.7827.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on windows (cf3dbab62df6313b883169fcb39e90c5)] -> xpath: /html/body/div[1]/div/div[2]/div/div]] -> xpath: .//input[@type='text' or @type='email' or @type='tel' or @type='number' or @type='password']]
+Session ID: cf3dbab62df6313b883169fcb39e90c5
+Найдено чекбоксов: 3
+✅ Чекбокс отмечен
+✅ Чекбокс отмечен
+ℹ️ Чекбокс уже отмечен
+✅ Кнопка 'Выслать код' нажата
+⚠️ Браузер оставлен открытым для отладки
+]]></system-out>
+    <system-err><![CDATA[июл. 07, 2026 12:20:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+июл. 07, 2026 12:20:43 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>

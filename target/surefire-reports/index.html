@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,6 +101,11 @@
                       <a href="#" panel-name="suite-SolidInvest_Tests" class="show-methods passed suite-SolidInvest_Tests"> (show)</a> <!-- show-methods passed suite-SolidInvest_Tests -->
                     </span>
                     <div class="method-list-content passed suite-SolidInvest_Tests">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SolidInvest_Tests" title="com.solidinvest.tests.ContactUsTest" class="method navigator-link" hash-for-method="testContactUsForm">testContactUsForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-SolidInvest_Tests" title="com.solidinvest.tests.ContactsTest" class="method navigator-link" hash-for-method="testContactsLinkNavigation">testContactsLinkNavigation</a> <!-- method navigator-link -->
@@ -141,6 +146,21 @@
           <div class="suite-SolidInvest_Tests-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.solidinvest.tests.ContactUsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testContactUsForm">
+                  </a> <!-- testContactUsForm -->
+                  <span class="method-name">testContactUsForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SolidInvest_Tests-class-passed -->
+          <div class="suite-SolidInvest_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.solidinvest.tests.MainPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -167,6 +187,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;com.solidinvest.tests.MainPageTest&quot;/&gt;
       &lt;class name=&quot;com.solidinvest.tests.ContactsTest&quot;/&gt;
+      &lt;class name=&quot;com.solidinvest.tests.ContactUsTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Main Page Tests --&gt;
 &lt;/suite&gt; &lt;!-- SolidInvest Tests --&gt;
@@ -180,7 +201,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Main Page Tests (2 classes)</span>
+                <span class="test-name">Main Page Tests (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -206,20 +227,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testContactsLinkNavigation')
-data.setCell(0, 2, 'com.solidinvest.tests.ContactsTest')
-data.setCell(0, 3, 4790);
+data.setCell(0, 1, 'testContactUsForm')
+data.setCell(0, 2, 'com.solidinvest.tests.ContactUsTest')
+data.setCell(0, 3, 22485);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testMainPageLoads')
-data.setCell(1, 2, 'com.solidinvest.tests.MainPageTest')
-data.setCell(1, 3, 2616);
+data.setCell(1, 1, 'testContactsLinkNavigation')
+data.setCell(1, 2, 'com.solidinvest.tests.ContactsTest')
+data.setCell(1, 3, 7359);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testMainPageLoads')
+data.setCell(2, 2, 'com.solidinvest.tests.MainPageTest')
+data.setCell(2, 3, 2326);
 window.suiteTableData['SolidInvest_Tests']= { tableData: data, tableDiv: 'times-div-SolidInvest_Tests'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
               <div id="times-div-SolidInvest_Tests">
               </div> <!-- times-div-SolidInvest_Tests -->
             </div> <!-- times-div -->
@@ -252,26 +277,41 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testMainPageLoads</span>
-                <span class="method-start">5998 ms</span>
+                <span class="method-start">2558 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">8649 ms</span>
+                <span class="method-start">4902 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.solidinvest.tests.ContactsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">9208 ms</span>
+                <span class="method-start">5109 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testContactsLinkNavigation</span>
-                <span class="method-start">12394 ms</span>
+                <span class="method-start">5941 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17195 ms</span>
+                <span class="method-start">13302 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.solidinvest.tests.ContactUsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13571 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testContactUsForm</span>
+                <span class="method-start">14381 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36868 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

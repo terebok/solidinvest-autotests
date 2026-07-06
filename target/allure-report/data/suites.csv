@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Jul 06 12:38:32 MSK 2026","Mon Jul 06 12:38:35 MSK 2026","2499","SolidInvest Tests","Main Page Tests","com.solidinvest.tests.MainPageTest","com.solidinvest.tests.MainPageTest","testMainPageLoads","testMainPageLoads","Проверка загрузки главной страницы"
-"passed","Mon Jul 06 12:38:39 MSK 2026","Mon Jul 06 12:38:44 MSK 2026","4781","SolidInvest Tests","Main Page Tests","com.solidinvest.tests.ContactsTest","com.solidinvest.tests.ContactsTest","testContactsLinkNavigation","testContactsLinkNavigation","Проверка перехода по ссылке 'Контакты'"
