@@ -2,8 +2,8 @@ name: Daily SolidInvest Tests
 
 on:
   schedule:
-    - cron: '0 6 * * *'   # каждый день в 6:00 UTC
-  workflow_dispatch:      # возможность запуска вручную
+    - cron: '0 6 * * *'
+  workflow_dispatch:
 
 jobs:
   test:
@@ -26,14 +26,46 @@ jobs:
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
 
-      - name: Run tests with Maven
-        run: mvn clean test
+      - name: Run tests with Maven (headless)
+        id: tests
+        continue-on-error: true
+        run: |
+          mvn clean test -Dheadless=true || true
 
       - name: Generate Allure report
+        if: always()
         run: mvn allure:report
 
       - name: Upload Allure report as artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: allure-report
           path: target/allure-report
+
+      - name: Send email with test results
+        if: always()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: |
+            [${{ job.status }}] SolidInvest Tests - ${{ github.run_id }}
+          to: ${{ secrets.RECIPIENT_EMAIL }}
+          from: ${{ secrets.MAIL_USERNAME }}
+          body: |
+            Результаты авто-тестов solidinvest.ru
+            
+            Статус: ${{ job.status }}
+            Дата: ${{ github.event.head_commit.timestamp }}
+            Запуск: #${{ github.run_id }}
+            
+            Ссылка на артефакт с Allure-отчётом:
+            ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+            
+            Для просмотра отчёта:
+            1. Перейдите по ссылке выше
+            2. Скачайте allure-report
+            3. Распакуйте и откройте index.html

@@ -3,6 +3,7 @@
     <test name="Main Page Tests">
         <classes>
             <class name="com.solidinvest.tests.MainPageTest"/>
+            <class name="com.solidinvest.tests.ContactsTest"/>
         </classes>
     </test>
 </suite>
