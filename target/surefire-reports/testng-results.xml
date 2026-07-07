@@ -1,53 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-07T00:20:28 MSK" name="SolidInvest Tests" finished-at="2026-07-07T00:21:05 MSK" duration-ms="37230">
+  <suite started-at="2026-07-07T23:14:58 MSK" name="SolidInvest Tests" finished-at="2026-07-07T23:15:39 MSK" duration-ms="40364">
     <groups>
     </groups>
-    <test started-at="2026-07-07T00:20:28 MSK" name="Main Page Tests" finished-at="2026-07-07T00:21:05 MSK" duration-ms="37230">
+    <test started-at="2026-07-07T23:14:58 MSK" name="Main Page Tests" finished-at="2026-07-07T23:15:39 MSK" duration-ms="40364">
       <class name="com.solidinvest.tests.ContactsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.solidinvest.tests.ContactsTest@56de6d6b]" started-at="2026-07-07T00:20:33 MSK" name="setUp" finished-at="2026-07-07T00:20:34 MSK" duration-ms="830" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.solidinvest.tests.ContactsTest@1473b8c0]" started-at="2026-07-07T23:15:06 MSK" name="setUp" finished-at="2026-07-07T23:15:07 MSK" duration-ms="969" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testContactsLinkNavigation()[pri:0, instance:com.solidinvest.tests.ContactsTest@56de6d6b]" started-at="2026-07-07T00:20:34 MSK" name="testContactsLinkNavigation" finished-at="2026-07-07T00:20:41 MSK" duration-ms="7359" status="PASS">
+        <test-method signature="testContactsLinkNavigation()[pri:0, instance:com.solidinvest.tests.ContactsTest@1473b8c0]" started-at="2026-07-07T23:15:07 MSK" name="testContactsLinkNavigation" finished-at="2026-07-07T23:15:11 MSK" duration-ms="3814" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testContactsLinkNavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.solidinvest.tests.ContactsTest@56de6d6b]" started-at="2026-07-07T00:20:41 MSK" name="tearDown" finished-at="2026-07-07T00:20:42 MSK" duration-ms="266" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.solidinvest.tests.ContactsTest@1473b8c0]" started-at="2026-07-07T23:15:11 MSK" name="tearDown" finished-at="2026-07-07T23:15:12 MSK" duration-ms="362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.solidinvest.tests.ContactsTest -->
       <class name="com.solidinvest.tests.ContactUsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.solidinvest.tests.ContactUsTest@5972d253]" started-at="2026-07-07T00:20:42 MSK" name="setUp" finished-at="2026-07-07T00:20:43 MSK" duration-ms="807" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.solidinvest.tests.ContactUsTest@5b5c0057]" started-at="2026-07-07T23:15:12 MSK" name="setUp" finished-at="2026-07-07T23:15:12 MSK" duration-ms="791" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testContactUsForm()[pri:0, instance:com.solidinvest.tests.ContactUsTest@5972d253]" started-at="2026-07-07T00:20:43 MSK" name="testContactUsForm" finished-at="2026-07-07T00:21:05 MSK" duration-ms="22485" status="PASS">
+        <test-method signature="testContactUsForm()[pri:0, instance:com.solidinvest.tests.ContactUsTest@5b5c0057]" started-at="2026-07-07T23:15:12 MSK" name="testContactUsForm" finished-at="2026-07-07T23:15:31 MSK" duration-ms="19019" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testContactUsForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.solidinvest.tests.ContactUsTest@5972d253]" started-at="2026-07-07T00:21:05 MSK" name="tearDown" finished-at="2026-07-07T00:21:05 MSK" duration-ms="293" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.solidinvest.tests.ContactUsTest@5b5c0057]" started-at="2026-07-07T23:15:31 MSK" name="tearDown" finished-at="2026-07-07T23:15:32 MSK" duration-ms="288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.solidinvest.tests.ContactUsTest -->
       <class name="com.solidinvest.tests.MainPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.solidinvest.tests.MainPageTest@5226e402]" started-at="2026-07-07T00:20:28 MSK" name="setUp" finished-at="2026-07-07T00:20:31 MSK" duration-ms="2407" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.solidinvest.tests.MainPageTest@1ddd3478]" started-at="2026-07-07T23:14:59 MSK" name="setUp" finished-at="2026-07-07T23:15:02 MSK" duration-ms="3483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testMainPageLoads()[pri:0, instance:com.solidinvest.tests.MainPageTest@5226e402]" started-at="2026-07-07T00:20:31 MSK" name="testMainPageLoads" finished-at="2026-07-07T00:20:33 MSK" duration-ms="2326" status="PASS">
+        <test-method signature="testMainPageLoads()[pri:0, instance:com.solidinvest.tests.MainPageTest@1ddd3478]" started-at="2026-07-07T23:15:02 MSK" name="testMainPageLoads" finished-at="2026-07-07T23:15:06 MSK" duration-ms="3981" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMainPageLoads -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.solidinvest.tests.MainPageTest@5226e402]" started-at="2026-07-07T00:20:33 MSK" name="tearDown" finished-at="2026-07-07T00:20:33 MSK" duration-ms="199" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.solidinvest.tests.MainPageTest@1ddd3478]" started-at="2026-07-07T23:15:06 MSK" name="tearDown" finished-at="2026-07-07T23:15:06 MSK" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.solidinvest.tests.MainPageTest -->
+      <class name="com.solidinvest.tests.OnbordingTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.solidinvest.tests.OnbordingTest@749f539e]" started-at="2026-07-07T23:15:32 MSK" name="setUp" finished-at="2026-07-07T23:15:33 MSK" duration-ms="771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testContactsLinkNavigation()[pri:0, instance:com.solidinvest.tests.OnbordingTest@749f539e]" started-at="2026-07-07T23:15:33 MSK" name="testContactsLinkNavigation" finished-at="2026-07-07T23:15:39 MSK" duration-ms="6323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactsLinkNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.solidinvest.tests.OnbordingTest@749f539e]" started-at="2026-07-07T23:15:39 MSK" name="tearDown" finished-at="2026-07-07T23:15:39 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.solidinvest.tests.OnbordingTest -->
     </test> <!-- Main Page Tests -->
   </suite> <!-- SolidInvest Tests -->
 </testng-results>

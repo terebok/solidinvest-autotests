@@ -1,6 +1,8 @@
 com\solidinvest\pages\ContactUsPage.class
 com\solidinvest\tests\ContactUsTest.class
 com\solidinvest\tests\MainPageTest.class
+com\solidinvest\tests\OnbordingTest.class
 com\solidinvest\pages\ContactsPage.class
+com\solidinvest\pages\OnbordingPage.class
 com\solidinvest\tests\ContactsTest.class
 com\solidinvest\pages\MainPage.class

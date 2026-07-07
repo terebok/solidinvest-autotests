@@ -5,6 +5,8 @@
             <class name="com.solidinvest.tests.MainPageTest"/>
             <class name="com.solidinvest.tests.ContactsTest"/>
             <class name="com.solidinvest.tests.ContactUsTest"/>
+            <class name="com.solidinvest.tests.OnbordingTest"/>
+
         </classes>
     </test>
 </suite>
